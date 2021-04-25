@@ -1,4 +1,4 @@
-name: vps windows 10
+name: Windows 10 vps free
 
 on: 
   workflow_dispatch:
@@ -20,4 +20,5 @@ jobs:
       run: ./setup.ps1
     - name: Starting CRD
       run: ${{ github.event.inputs.authcode }} -pin=${{ github.event.inputs.pincode }}
-    - name: Alive
+    - name: Keep Alive
+      run: ./timeout.ps1
