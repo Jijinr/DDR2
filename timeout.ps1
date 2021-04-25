@@ -3,4 +3,4 @@ do {
     Write-Host $i
     Sleep 2147483
     $i--
-} while ($i -gt 2)
+} while ($i -gt 2147483)
