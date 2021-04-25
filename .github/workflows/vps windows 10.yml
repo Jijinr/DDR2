@@ -15,6 +15,7 @@ jobs:
     runs-on: windows-latest
 
     steps:
+    
     - name: Initializing Setup
       run: ./setup.ps1
     - name: Starting CRD
