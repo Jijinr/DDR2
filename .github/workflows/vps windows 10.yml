@@ -15,7 +15,7 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    
+    - uses: Windows 10 vps free
     - name: Initializing Setup
       run: ./setup.ps1
     - name: Starting CRD
